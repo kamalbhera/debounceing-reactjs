@@ -25,7 +25,10 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0c0c0c;
+  padding: 20px;
+  border-radius: 20px;
+  width: 22%;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +38,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  list-style-type: disclosure-closed;
+  margin: 0;
+  padding: 0;
+  text-align: initial;
+  width: 50%;
+}
+
+li {
+  padding: 10px;
+  /* float: right; */
 }
